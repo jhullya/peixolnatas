@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Peixonautas</title>
+	<style type="text/css">
+		body{
+
+			background-image: url("img/wallpaper.png");
+		}
+	</style>
+</head>
+
+<body>
+
+	<header class="menu-principal">
+		<main>
+		   <div class="header-1">
+
+			  <div class="logo">
+				 <img src="./img/LOGO B.png" height="40" width="230">
+			  </div>
+
+			  <div class="redes-sociais">
+			  	<ul>
+			  		<li>
+			  			<a href=""><img src="img/instagran.png" height="30" width="30">
+			  			</a>
+			  		</li>
+			  		<li>
+			  			<a href=""><img src="img/gmail.png" height="30" width="40">
+			  			</a>
+			  		</li>
+			  	</ul>
+			  </div>
+
+		   </div>
+		</main>
+	</header> 
+
+	<main>
+			<div class="header-2">
+				<div class="menu">
+					<ul>
+						<li><a href="">CATEGORIAS</a></li> 
+						<li><a href="">CURIOSIDADES</a></li> 
+						<li><a href="Sobre nozes.html">SOBRE NÓS</a></li> 
+					</ul>  
+				</div>
+			</div>
+			<div class="busca"><input type="text"></div>
+					
+		</main>
+		
+
+<br class="conteudo">
+<br>
+<br>
+<br>
+<main id="info">
+	<div class="texto">
+		<p><a href="tubaroes.html" style="color: rgb(213, 217, 224)">Curiosidades sobre tubarões</a></p>
+			
+
+				<img src="img/giftubarao.gif" alt="tubarões" width="830" class="redondo">
+
+		
+	</div>
+</main>
+
+</div>
+
+
+</body>
+</html>
