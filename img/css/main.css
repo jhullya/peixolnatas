@@ -1,0 +1,121 @@
+body {
+	
+	margin: 0 auto;
+	background-size: cover;
+	position: fixed;
+    height: 100vh;
+    width: 100vw;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+
+.menu-principal {
+	width: 100%;
+	background-color: #010935;
+	height:60px;
+}
+
+.logo {
+	float: left;
+	padding: 15px;
+	width: 60%;
+}
+
+.redes-sociais ul li {
+	margin-left: 15px;
+	display: block;
+	float: left;
+	padding: 2px;
+}
+
+.redes-sociais {
+	float: right;
+	margin: auto;
+	float: right;
+}
+
+.header-2 {
+	background-color: #FFFFFF;
+	width: 100%;
+	border-bottom: 3px solid #6495ED;
+	margin: 0 auto;
+    position: relative;
+}
+
+
+.menu ul li a {
+	color: #d9e0ff;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+
+
+.menu li {
+  padding: 8px;
+  background-color: #002453;
+  box-shadow: 0 1px 3px #6495ED;
+  float:  left;
+  list-style-type: none;
+  
+}
+
+
+ .conteudo {
+ 	margin: auto;
+	float: none; 
+
+ }
+.texto a{
+	text-decoration: none;
+	text-transform: uppercase;		
+	position: absolute;
+	font-size: clamp(10px, 2em + 1vw, 2.5em);
+	margin-top: 7%;
+	padding: 10%;
+	margin-left: 5%;
+	text-align: center;
+	text-shadow: rgb(49, 49, 49) 0.1em 0.1em 0.2em
+
+}
+ .texto {
+      position: relative;
+      color:rgb(247, 245, 245);
+      text-align: justify;
+      width: 76%;
+	  text-decoration: none;
+	  text-transform: uppercase;
+	  font-family:'Franklin Gothic Medium';
+	  font-size: clamp(10px, 1em + 1vw, 1.5em);
+	  margin: 0 auto;
+
+ }  
+
+ #info {
+	position: relative;
+	min-width: 320px;
+	max-width: 980px;
+    align-items: center;
+    flex-wrap: wrap;
+	margin: 0 auto;
+
+}
+
+.redondo {
+	color: rgb(0, 153, 255);
+	border-radius: 2%;
+	border-style: double;
+
+ }
+
+
+html{ 
+	overflow-y: scroll;
+}
+
+
+
+
