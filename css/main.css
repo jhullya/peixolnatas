@@ -1,14 +1,35 @@
 body {
 	
-	margin: 0 auto;
-	background-size: cover;
-	position: fixed;
-    height: 100vh;
-    width: 100vw;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	
+	margin: 0;
+			width: 100vw;
+			height: 100vh;
+            background-size: cover;
+			background-repeat: no-repeat;
+			min-width: 320px;
+			max-width: 100%;
+			min-height: 568px;
+			max-height: 100%;
+        
 }
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    gap: 5%;
+  }
+  
+  .grid-container > div {
+    padding: auto 0;
+  }
 
 
 .menu-principal {
@@ -37,30 +58,26 @@ body {
 }
 
 .header-2 {
-	background-color: #FFFFFF;
 	width: 100%;
 	border-bottom: 3px solid #6495ED;
 	margin: 0 auto;
     position: relative;
 }
 
-
-.menu ul li a {
-	color: #d9e0ff;
-	text-decoration: none;
-	font-size: 18px;
-	text-transform: uppercase;
-}
-
-
-
-.menu li {
+.menu ul li {
   padding: 8px;
   background-color: #002453;
   box-shadow: 0 1px 3px #6495ED;
   float:  left;
   list-style-type: none;
   
+}
+
+.menu li a {
+	color: #d9e0ff;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
 }
 
 
@@ -85,7 +102,7 @@ body {
       position: relative;
       color:rgb(247, 245, 245);
       text-align: justify;
-      width: 76%;
+      width: 90%;
 	  text-decoration: none;
 	  text-transform: uppercase;
 	  font-family:'Franklin Gothic Medium';
@@ -96,8 +113,8 @@ body {
 
  #info {
 	position: relative;
-	min-width: 320px;
-	max-width: 980px;
+	min-width: 20%;
+	max-width: 500%;
     align-items: center;
     flex-wrap: wrap;
 	margin: 0 auto;
@@ -115,7 +132,3 @@ body {
 html{ 
 	overflow-y: scroll;
 }
-
-
-
-
