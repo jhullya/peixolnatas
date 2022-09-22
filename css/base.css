@@ -70,6 +70,7 @@ html{ overflow-y: scroll;
 
 .grid-container {
     display: grid;
+    background-color: rgba(0, 0, 0, 0.253);
     grid-template-areas:
       'header header header header header header'
       'menu main main main main right'
