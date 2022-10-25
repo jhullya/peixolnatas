@@ -21,16 +21,15 @@ body {
 .grid-container {
     display: grid;
     grid-template-areas:
-      'header header header header header header'
-      'menu main main main main right'
-      'menu footer footer footer footer footer';
+	'header header header header header header'
+	'menu main main main main right'
+	'menu footer footer footer footer footer';
     
   }
   
   .grid-container > div {
     padding: auto 0;
   }
-
 
 .menu-principal {
 	width: 100%;
@@ -49,12 +48,14 @@ body {
 	display: block;
 	float: left;
 	padding: 2px;
+	
 }
 
 .redes-sociais {
 	float: right;
 	margin: auto;
 	float: right;
+	margin: 0.5%;
 }
 
 .header-2 {
@@ -65,12 +66,14 @@ body {
 }
 
 .menu ul li {
+	display: block;
   padding: 8px;
   background-color: #002453;
   box-shadow: 0 1px 3px #6495ED;
   float:  left;
   list-style-type: none;
-margin-left: 2%;
+  margin-left: 2%;
+  text-align: center;
   
 }
 
@@ -79,43 +82,118 @@ margin-left: 2%;
 	text-decoration: none;
 	font-size: 18px;
 	text-transform: uppercase;
-}
+	font-size: clamp(20px, 2em + 2vw, 1em);
 
+}
 
  .conteudo {
  	margin: auto;
 	float: none; 
+	display: block;
 
  }
-.texto a{
-	text-decoration: none;
-	text-transform: uppercase;		
-	position: absolute;
-	font-size: clamp(10px, 2em + 1vw, 2.5em);
-	text-align: center;
-	display: flex;
-   	align-items: center;
-    	justify-content: center;
-	text-shadow: rgb(49, 49, 49) 0.1em 0.1em 0.2em;
-	left: 30%;
-    transform: translate(-50%, 50%);
-    margin: 20% 22% 22% 22%;
-    width: max-content;
 
+ div.texto_1 {
+	font-size: 25px;
+	position: relative;
+	color: rgb(247, 245, 245);
+	text-transform: uppercase;
+	font-family: 'Franklin Gothic Medium';
+	align-items: justify;
+	justify-content: center;
+	word-break: normal;
 }
 
- .texto {
-      position: relative;
-      color:rgb(247, 245, 245);
-      text-align: justify;
-      width: 90%;
-	  text-decoration: none;
-	  text-transform: uppercase;
-	  font-family:'Franklin Gothic Medium';
-	  font-size: clamp(10px, 1em + 1vw, 1.5em);
-	  margin: 0 auto;
 
-}
+	  .texto a {
+		text-decoration: none;
+		text-transform: uppercase;
+		position: absolute;
+		font-size: clamp(25px, 2em + 2vw, 0.85em);
+		text-shadow: rgb(49 49 49) 0.1em 0.1em 0.2em;
+		transform: translate(-50%, 50%);
+		margin: 15% 1% 1% 1%;
+		width: max-content;
+	}
+	
+	.texto {
+		position: relative;
+		color: rgb(247, 245, 245);
+		text-transform: uppercase;
+		font-family: 'Franklin Gothic Medium';
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	@media screen and (min-width: 600px) {
+		div.texto p {
+		  font-size: 80px;
+		}
+		
+	  }
+	  
+	  @media screen and (max-width: 600px) {
+		div.texto p {
+		  font-size: 30px;
+		}
+		
+	  }
+
+	@media screen and (max-width: 1200px) {
+		.h1 {
+   			 font-size: 5.5rem;
+		}
+	}
+
+
+	@media screen and (min-width: 375px){
+		.h1 {
+    		font-size: 1.5rem;
+		}
+	}
+
+	@media (max-width:800px) {
+		.menu-principal {
+			height: 12vmax;
+		}
+
+	}
+
+
+		@media (min-width:100px) and (max-width:1000px) {
+			.menu-principal {
+				height: 110px;
+			
+			}
+			.logo img {
+				width: 90%;
+				height: 90%;
+			}
+		
+			.redes-sociais ul li a img {
+				width: auto;
+				height: 60px;
+				margin: 15px 1px 1px 2px;
+			}
+
+			.menu ul li {
+
+				float: left;
+				font-size: 40px;
+			}
+			.awa {
+				font-size: 350%;
+			}
+
+			.redondo {
+				width: 20%;
+			}
+			
+		}
+
+		
 
  #info {
 	position: relative;
@@ -131,8 +209,12 @@ margin-left: 2%;
 	color: rgb(0, 153, 255);
 	border-radius: 2%;
 	border-style: double;
+	width: 100%;
+	min-width: 100%;
+	max-width: 150%;
 
  }
+
 
 
 html{ 

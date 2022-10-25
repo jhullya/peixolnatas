@@ -21,6 +21,8 @@ body {
 	height:60px;
 }
 
+
+
 .logo {
 	float: left;
 	padding: 15px;
@@ -83,6 +85,7 @@ html{ overflow-y: scroll;
     padding: auto 0;
   }
 
+
   .header-2 {
 	background-color: #FFFFFF;
 	width: 100%;
@@ -131,15 +134,12 @@ html{ overflow-y: scroll;
 	margin: auto;
 	display: block;
 	position: unset;
-
 		
 }
 
 #info {
 	position: relative;
 	border-radius: 2%;
-	min-width: 320px;
-	max-width: 980px;
     border: 1px solid rgba(0, 0, 0, 0);
     align-items: center;
     flex-wrap: wrap;
@@ -168,7 +168,6 @@ html{ overflow-y: scroll;
 
 }
 
-
 .uai {
     width: 20%;
     height: 80%;
@@ -179,19 +178,15 @@ html{ overflow-y: scroll;
     align-items: relative;
     flex-wrap: wrap;  
     margin-top: 5%;
-	column-width: 900px;
+
 }
 
 select {
-    /*appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;*/
     border: 1px rgb(0,100,255);
-    font-size: 18px;
     background-color: #08082b;
     color: rgb(156, 241, 247);
-    font-family: Times New Roman;
     opacity: 1;
+	width:150px;
     
 }
 
@@ -225,3 +220,78 @@ select {
   .uai li:hover {
     background-color: #11116b;
   }
+
+  @media screen and (min-width: 600px) {
+		div.texto p {
+		  font-size: 80px;
+		}
+		
+	  }
+	  
+	  @media screen and (max-width: 600px) {
+		div.texto p {
+		  font-size: 30px;
+		}
+		
+	  }
+
+	@media screen and (max-width: 1200px) {
+		.h1 {
+   			 font-size: 5.5rem;
+		}
+	}
+
+
+	@media screen and (min-width: 375px){
+		.h1 {
+    		font-size: 1.5rem;
+		}
+	}
+
+	@media (max-width:800px) {
+		.menu-principal {
+			height: 12vmax;
+		}
+
+	}
+
+
+		@media (min-width:100px) and (max-width:1000px) {
+			.menu-principal {
+				height: 110px;
+			
+			}
+			.logo img {
+				width: 90%;
+				height: 90%;
+			}
+		
+			.redes-sociais ul li a img {
+				width: auto;
+				height: 60px;
+				margin: 15px 1px 1px 2px;
+			}
+
+			#info {
+				font-size: 200%;
+				width: 130%;
+				right: 30%;
+
+			}
+
+			.uai{
+				visibility: hidden;
+			}	
+
+			.menu ul li {
+				font-size: 50px;
+			
+			}
+			.menu ul li select {
+				width:350px;
+				height: auto;
+			
+			
+			
+		}
+	}
