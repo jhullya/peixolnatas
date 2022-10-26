@@ -93,14 +93,13 @@ body {
 
  }
 
- div.texto_1 {
+ 	.texto_1 {
 	font-size: 25px;
 	position: relative;
 	color: rgb(247, 245, 245);
 	text-transform: uppercase;
 	font-family: 'Franklin Gothic Medium';
-	align-items: justify;
-	justify-content: center;
+	text-align: justify;
 	word-break: normal;
 }
 
@@ -191,6 +190,9 @@ body {
 				width: 20%;
 			}
 			
+			.texto_1 p {
+				font-size: 40px;
+			}
 		}
 
 		
@@ -208,7 +210,7 @@ body {
 .redondo {
 	color: rgb(0, 153, 255);
 	border-radius: 2%;
-	border-style: double;
+	border-style: ridge;
 	width: 100%;
 	min-width: 100%;
 	max-width: 150%;
