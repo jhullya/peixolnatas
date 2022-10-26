@@ -154,6 +154,7 @@ html{ overflow-y: scroll;
 	color: rgb(255, 255, 255);
 	text-align: center;
 	position: relative;
+	text-transform: uppercase;
 }
 
 .complemento {
