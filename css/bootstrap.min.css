@@ -131,7 +131,7 @@ h1 {
     font-size: calc(1.375rem + 1.5vw)
 }
 
-@media (min-width:1200px) {
+@media (max-width:1200px) {
 
     .h1,
     h1 {
@@ -212,12 +212,6 @@ ul {
     padding-left: 2rem
 }
 
-dl,
-ol,
-ul {
-    margin-top: 0;
-    margin-bottom: 1rem
-}
 
 ol ol,
 ol ul,
