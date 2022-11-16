@@ -217,7 +217,17 @@ body {
 
  }
 
-
+.textoo {
+	position: relative;
+	color:rgb(247, 245, 245);
+	text-align: justify;
+	font-family:'Franklin Gothic Medium';
+	font-size: 125%;
+	padding: 8%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 html{ 
 	overflow-y: scroll;
