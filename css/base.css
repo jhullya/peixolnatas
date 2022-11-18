@@ -67,10 +67,12 @@ html {
 
 .item1 {
 	grid-area: header;
+	
 }
 
 .item2 {
 	grid-area: menu;
+	
 }
 
 .item3 {
@@ -79,6 +81,7 @@ html {
 
 .item4 {
 	grid-area: right;
+	
 }
 
 .item5 {
@@ -183,10 +186,14 @@ html {
 }
  
 .menu {
-	position: relative;
+	
 	align-self: center;
+	position: absolute;
+	z-index: 1;
+	
 	
 }
+	
 
 .menu li {
 	color: #6495ED;
@@ -199,7 +206,7 @@ html {
 	text-transform: uppercase;
 	display: inline-block;
 	position:relative;
-	margin-left: 1%;
+	margin-left: 15%;
 	text-align: center;
 
 }
@@ -225,6 +232,7 @@ html {
 .menu li ul li {
 	display: inline-block;
 	width: 100%;
+	margin: 0%;
 	
 }
 
@@ -336,6 +344,19 @@ html {
 	.menu {
 		font-size: 40px;
 		height: auto;
+		
 	}
+
+	.menu li {
+	margin-left: 40%;
+	}
+
+	.menu li:hover {
+		margin-left: 0.1%;
+		}
+
+		.menu li ul li {
+			margin: 0%;
+			}
 }
 
