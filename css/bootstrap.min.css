@@ -165,10 +165,7 @@ h3 {
     }
 }
 
-.h4,
-h4 {
-    font-size: calc(1.275rem + .3vw)
-}
+
 
 @media (min-width:1200px) {
 
@@ -265,10 +262,7 @@ sup {
     top: -.5em
 }
 
-a {
-    color: var(--bs-link-color);
-    text-decoration: underline
-}
+
 
 a:hover {
     color: var(--bs-link-hover-color)

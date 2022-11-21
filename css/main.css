@@ -93,6 +93,34 @@ body {
 
  }
 
+ .textoo {
+    position: relative;
+    color: rgb(247, 245, 245);
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+    padding: 8% 8% 2% 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+	word-break: normal;
+}	
+
+.textoo img {
+	width: 700px;
+}
+
+.textoo hr {
+	margin: 1rem 0;
+    color: white;
+	width: 100%;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+}
+
+
+
  	.texto_1 {
 	font-size: 25px;
 	position: relative;
@@ -121,10 +149,40 @@ body {
 		text-transform: uppercase;
 		font-family: 'Franklin Gothic Medium';
 		text-align: center;
-		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
+
+	a { 
+		color: inherit;
+		text-decoration: none;
+	 } 
+
+	.texto h4 {
+		font-size: 30px;
+	}
+
+	.rodape {
+		font-size: 25px;
+		position: relative;
+		color: rgb(247, 245, 245);
+		font-family: 'Franklin Gothic Medium';
+		text-align: justify;
+		padding: 2% 8% 8% 8%;
+		align-items: center;
+		justify-content: center;
+		
+		
+	}
+
+
+	.rodape ul{
+		padding: 0;
+		list-style:none
+	}
+
+
+
 
 	@media screen and (min-width: 600px) {
 		div.texto p {
@@ -193,6 +251,22 @@ body {
 			.texto_1 p {
 				font-size: 40px;
 			}
+
+			.textoo {
+				font-size: 50px;
+			}
+
+			.textoo img {
+				width: 110%;
+			}
+
+			.rodape {
+				font-size: 30px;
+				
+			}
+			.texto h4 {
+				font-size: 40px;
+			}
 		}
 
 		
@@ -217,17 +291,7 @@ body {
 
  }
 
-.textoo {
-	position: relative;
-	color:rgb(247, 245, 245);
-	text-align: justify;
-	font-family:'Franklin Gothic Medium';
-	font-size: 125%;
-	padding: 8%;
-	display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 html{ 
 	overflow-y: scroll;
