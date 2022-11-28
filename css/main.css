@@ -189,7 +189,8 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-	word-break: normal;
+    word-break: normal;
+    z-index: 1;
 }	
 
 .textoo img {
@@ -237,6 +238,7 @@ body {
 		text-align: center;
 		align-items: center;
 		justify-content: center;
+		z-index: 1;
 	}
 
 	a { 
@@ -361,9 +363,10 @@ body {
 	position: relative;
 	min-width: 20%;
 	max-width: 500%;
-    align-items: center;
-    flex-wrap: wrap;
+   	align-items: center;
+    	flex-wrap: wrap;
 	margin: 0 auto;
+	z-index: 1;
 
 }
 
