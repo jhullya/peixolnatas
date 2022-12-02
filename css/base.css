@@ -165,7 +165,7 @@ html {
 	word-break: break-word;
 	margin-top: auto;
 	position: relative;
-	z-index: 1;
+	
 
 }
 
@@ -443,6 +443,10 @@ html {
 	.menu {
 		font-size: 40px;
 		height: auto;
+	}
+
+	.menu li {
+		margin-left: 47%;
 	}
 
 }
