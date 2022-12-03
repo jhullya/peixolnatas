@@ -443,10 +443,12 @@ html {
 	.menu {
 		font-size: 40px;
 		height: auto;
+		margin: 17% 10% 1% 4%;
 	}
 
 	.menu li {
 		margin-left: 47%;
+		
 	}
 
 }
