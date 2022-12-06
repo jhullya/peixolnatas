@@ -153,7 +153,7 @@ html {
 	text-align: center;
 	position: relative;
 	text-transform: uppercase;
-	z-index: ;
+	z-index: 1;
 }
 
 .complemento {
@@ -423,6 +423,10 @@ html {
 		height: 90%;
 	}
 
+	.redes-sociais:hover {
+		margin-top: -12%;
+		}
+
 	.redes-sociais ul li a img {
 		width: auto;
 		height: 60px;
@@ -449,6 +453,26 @@ html {
 	.menu li {
 		margin-left: 60%;
 		
+	}
+
+	.menuu li ul {
+		font-size: 200%;
+		margin: 0;
+		border: 0;
+		padding: 0;
+	
+		
+	}
+
+	.menuu li ul {
+		font-size: 200%;
+		width: max-content;
+					
+	}
+
+
+	input {
+		width: 330px;
 	}
 
 }

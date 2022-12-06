@@ -317,7 +317,10 @@ body {
 				width: 90%;
 				height: 90%;
 			}
-		
+			
+			.redes-sociais:hover {
+			margin-top: -12%;
+			}
 			.redes-sociais ul li a img {
 				width: auto;
 				height: 60px;
@@ -357,6 +360,29 @@ body {
 			.texto h4 {
 				font-size: 40px;
 			}
+
+			.menuu li ul {
+				font-size: 200%;
+				margin: 0;
+				border: 0;
+				padding: 0;
+			
+				
+			}
+
+			.menuu li ul {
+				font-size: 200%;
+				width: max-content;
+							
+			}
+
+
+			input {
+				width: 330px;
+			}
+
+		
+			
 		}
 
 		
